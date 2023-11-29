@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    border-bottom: .5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+#button a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+
+#button a:hover {
+    border-bottom: 4px solid orange;
+}
+
+#button sup {
+    color: red;
+    font-size: 10px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    background-color: rgb(221, 224, 226);
+}
+
+.searchbar input {
+    width: 100%;
+    border: none;
+    background-color: rgb(221, 224, 226);
+    height: 30px;
+}
+
+.searchbar span {
+    margin: 0 8px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.section{
+    margin: 0 15px;
+}
+
+.section span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-section img {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.content h2 {
+    color: gray;
+    letter-spacing: 3px;
+    margin: 70px 25px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+.section img {
+    width: 248.2px;
+    height: 350px;
+}
+
+.third-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+
+.online-section {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+#online {
+    text-decoration: none;
+    color: black;
+    margin: 30px 0px;
+    font-weight: 600;
+}
+
+.online-section a {
+    text-decoration: none;
+    color: rgb(87, 82, 82);
+    margin: 5px 0px;
+}
